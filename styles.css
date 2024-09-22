@@ -1,0 +1,295 @@
+body {
+    background: #fff;
+}
+.container {
+width: 75%;
+box-shadow: 20px 0 20px -20px #864d25, -20px 0 20px -20px #864d25; /* Right and left shadows */
+margin-top: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom: 20px;
+background-color: transparent !important;
+}
+
+/* Navbar Styles */
+.mynav {
+  background-color: transparent !important; 
+  margin-top: 20px;
+}
+.navbar-collapse {
+margin-top: 20px;
+}
+.navbar-brand {
+  margin-left: 100px;
+  margin-top: 20px;
+  background: transparent !important;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: 60px;
+}
+.mynav a {
+margin-right: 30px;
+color: #6d3b1c !important;
+border: #fff 2px solid !important;
+background-color: #fff;
+padding: 0 5px;
+border-radius: 5px;
+}
+.mynav a:hover {
+  background: #F6930B;
+  border-radius: 5px;
+  padding: 0 5px;
+  color: #fff !important;
+  border: transparent 2px solid !important;
+}
+.active a {
+  border: #F6930B 2px solid !important;
+  border-radius: 5px;
+  padding: 0 5px;
+  background-color: transparent;
+}
+.mrt a:hover {
+border: #F6930B 2px solid !important;
+border-radius: 5px;
+color: #6d3b1c !important;
+padding: 0 5px;
+background-color: #fff;
+}
+.mrt a {
+border: transparent 2px solid !important;
+border-radius: 5px;
+color: #6d3b1c !important;
+padding: 0 5px;
+margin-right: 50px;
+background-color: transparent;
+}
+.mrt li{
+    list-style: none;
+}
+.dropdown-menu {
+ border: none; 
+}
+/* Add this CSS for the dissolve effect */
+.dissolve {
+opacity: 0;
+transition: opacity 0.5s ease-in-out;
+}
+.team-container {
+display: flex;
+align-items: flex-start; /* Align items at the start of the container */
+gap: 20px; /* Space between the image and the text */
+}
+
+.team-container .image {
+flex: 1; /* Allow the image to take up one part of the available space */
+}
+
+.team-container .text-content {
+flex: 2; /* Allow the text content to take up two parts of the available space */
+}
+
+.team-container img {
+max-width: 100%; /* Ensure the image does not overflow its container */
+height: auto; /* Maintain the aspect ratio of the image */
+}
+
+.content-wrapper {
+display: flex;
+align-items: flex-start; /* Align items at the start of the container */
+gap: 20px; /* Space between the text and the image */
+}
+
+.welcome-message {
+flex: 2; /* Allow the text content to take up two parts of the available space */
+order: 2;
+}
+
+.slider {
+flex: 1; /* Allow the image to take up one part of the available space */
+order: 1;
+}
+
+.slider img {
+max-width: 100%; /* Ensure the image does not overflow its container */
+height: auto; /* Maintain the aspect ratio of the image */
+padding-top: 50px;
+margin-top: 70px;
+transition: transform 0.3s; /* Smooth transition for hover effect */
+border-radius: 10px;
+}
+.slider img:hover {
+transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+.image img {
+width: 50%;
+height: auto;
+
+}
+.social-media {
+margin-bottom: 10px; /* Add some space above the icons */
+}
+.social-media a {
+margin-right: 15px; /* Adjust the value as needed */
+margin: 0 15px;
+font-size: 24px; /* Increase the size of the icons */
+transition: transform 0.3s; /* Smooth transition for hover effect */
+color: inherit; /* Ensure the icons inherit the color */
+text-decoration: none; /* Remove underline from the icons */
+}
+
+.social-media a:last-child {
+margin-right: 0; /* Remove margin from the last item */
+}
+.social-media i:hover {
+transform: scale(1.1); /* Enlarge the icon on hover */
+}
+.social-media i {
+font-size: 50px; /* Increase the size of the icons */
+transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+/* Specific colors for different platforms */
+.social-media a.facebook {
+color: #0a399e;
+}
+.social-media a.twitter {
+color: #1da1f2;
+}
+.social-media a.instagram {
+color: #e4405f;
+}
+.details {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+section {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+.product {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+/* CSS for the contact form */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 50vh;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+form {
+  padding: 10px;
+  width: 500px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: #ffffff;
+}
+.message-icon {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.message-icon i {
+  font-size: 20px;
+  color: #6d3b1c;
+}
+
+.message-icon span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+form input,
+textarea {
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border: 1px solid #6d3b1c;
+  border-radius: 5px;
+  outline: none;
+  color: #6d3b1c;
+  background: transparent;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.input-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.input-field i {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #6d3b1c;
+}
+.input-field input {
+  font-size: 15px; /* Increase font size */
+  padding: 12px; /* Increase padding */
+  height: 30px; /* Set a specific height */
+}
+.input-field textarea {
+  font-size: 15px; /* Increase font size */
+  height: 150px; /* Set a specific height */
+}
+.input-field input,
+.input-field textarea {
+  padding-left: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.send-btn {
+  background: #6d3b1c;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #EF5B2A; /* Neon glow effect */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background color and transform */
+}
+
+.send-btn:hover {
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+
+footer {
+  background-color: transparent;
+  color: #6C584C;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
