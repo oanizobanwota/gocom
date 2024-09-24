@@ -147,7 +147,7 @@ margin-right: 0; /* Remove margin from the last item */
 transform: scale(1.1); /* Enlarge the icon on hover */
 }
 .social-media i {
-font-size: 50px; /* Increase the size of the icons */
+font-size: 20px; /* Increase the size of the icons */
 transition: transform 0.3s; /* Smooth transition for hover effect */
 }
 /* Specific colors for different platforms */
@@ -167,7 +167,7 @@ color: #e4405f;
 section {
   text-align: center;
   padding: 20px;
-  margin: 20px;
+  margin: 20px;git
   height: 100vh;
 }
 .product {
